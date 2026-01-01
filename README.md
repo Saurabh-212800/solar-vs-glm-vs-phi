@@ -34,7 +34,7 @@ Solar-Open-100B, GLM-4.5-Air, 그리고 Phi-3.5-MoE-instruct 모델의 Layernorm
 
 ![](./confusions/mean_abs_diff/confusion_mean_abs_diff_layer30.png)
 
-## Element-wise 값 비교
+### Element-wise 값 비교
 
 ![](elementwise/solar_vs_glm.png)
 
