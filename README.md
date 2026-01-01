@@ -1,6 +1,6 @@
 # Solar-Open-100B는 GLM-4.5-Air에서 파생되지 않았습니다.
 이 레포지토리는 https://github.com/sionic-ai/solar-vs-glm 의 주장이 잘못되었음을 보입니다.
-Solar-Open-100B, GLM-4.5-Air, 그리고 Phi-3.5-MoE-instruct 모델의 Layernorm 파라미터를 비교하여 Layernorm 파라미터의 Cosine 유사도로는 모델간 유사성을 판단할 수 없음을 보여줍니다.
+Solar-Open-100B, GLM-4.5-Air, 그리고 Phi-3.5-MoE-instruct 모델의 Layernorm 파라미터를 비교하여 Layernorm 파라미터의 Cosine 유사도로는 모델간 유사성을 판단할 수 없음을 확인하였습니다.
 
 ## 1. 모델간 동일 레이어에서의 Layernorm 파라미터 비교
 
