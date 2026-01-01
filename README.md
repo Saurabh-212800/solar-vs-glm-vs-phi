@@ -21,7 +21,7 @@ Solar-Open-100B, GLM-4.5-Air, 그리고 Phi-3.5-MoE-instruct 모델의 Layernorm
 ### 10번째 레이어에서의 Layernorm Mean Abs Diff 비교
 
 이번엔 Cosine 유사도가 아니라 Mean Abs Diff로 비교합니다. 
-`input_layernorm`을 기준으로 볼 때, Solar-Open-100B와 GLM-4.5-Air의 Mean Abs Diff는 0.2615로, GLM-4.5-Air와 Phi-3.5-MoE-instruct의 Mean Abs Diff 0.1783보다 더 큽니다.
+`input_layernorm`을 기준으로 볼 때, Solar-Open-100B와 GLM-4.5-Air의 Mean Abs Diff는 0.2615로, GLM-4.5-Air와 Phi-3.5-MoE-instruct의 Mean Abs Diff 0.178보다 더 큽니다.
 만약 이 정도 차이로 Solar-Open-100B가 GLM-4.5-Air에서 파생된 모델이라고 주장한다면, GLM-4.5-Air 역시 Phi-3.5-MoE-instruct에서 파생된 모델이라고 주장해야 할 것입니다.
 
 ![](./confusions/mean_abs_diff/confusion_mean_abs_diff_layer10.png)
