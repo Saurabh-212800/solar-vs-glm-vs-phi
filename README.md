@@ -2,17 +2,7 @@
 
 이 레포지토리는 https://github.com/sionic-ai/solar-vs-glm (이하 원본 레포)의 주장이 옳지 않음을 보입니다.
 저는 Solar-Open-100B, GLM-4.5-Air, 그리고 Phi-3.5-MoE-instruct 모델의 파라미터를 비교했고 Layernorm 파라미터의 cosine 유사도로는 모델간 유사성을 판단할 수 없음을 확인하였습니다.
-그리고 Solar, GLM, Phi가 모두 동일한 쉐입을 갖는 `k_proj`와 `v_proj` 파라미터에서는 뚜렷한 패턴을 찾을 수 없었고, 이러한 내용을 여러분께 공유하고자 합니다.
-
-특히 이 레포지토리에서는 다음과 같은 통계적 지표를 비교하여 모델간 파라미터 유사성을 분석할 것입니다.
-1. cosine 유사도
-2. centered cosine 유사도
-3. pearson 상관계수
-4. mean absolute diff
-5. abs p99 diff
-6. relative L2 norm
-7. cv diff
-
+그리고 Solar, GLM, Phi가 모두 동일한 쉐입을 갖는 `k_proj`와 `v_proj` 파라미터에서 역시 뚜렷한 패턴을 찾을 수 없었고, 이러한 내용을 정리하여 여러분께 공유하고자 합니다.
 
 ## 1. 동일 모델 내 레이어 간 Layernorm 파라미터의 cosine 유사도
 
