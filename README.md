@@ -75,7 +75,7 @@ for layer_j in [10, 20, 30, 40]:
 
 ![](./assets/qwen_within_cos_post_attn.png)
 
-결과는 꽤 재밌습니다. 0번째 레이어의 `post_attention_layernorm` 파라미터는 15, 20번째 레이어의 `post_attention_layernorm` 파라미터와도 0.94 이상의 매우 높은 cosine 유사도를 갖습니다.
+결과는 꽤 재밌습니다. 0번째 레이어의 `post_attention_layernorm` 파라미터는 15, 20번째 레이어의 `post_attention_layernorm` 파라미터와 0.94 이상의 매우 높은 cosine 유사도를 갖습니다.
 이는 0번째 레이어라고 하더라도, 정규화된 입력을 받는 Layernorm 파라미터는 다른 레이어들과 높은 cosine 유사도를 가질 수 있음을 시사합니다.
 논란이 되었던 Solar와 GLM, 그리고 Phi 모델에서도 이를 동일하게 확인할 수 있습니다. 
 
