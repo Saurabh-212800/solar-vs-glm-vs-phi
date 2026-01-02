@@ -29,7 +29,7 @@
 
 ```python
 # https://github.com/sionic-ai/solar-vs-glm/blob/56219dfba17b6ab78cf3cda8d53c270e87459edd/definitive_proof.py#L186-L207
-
+다
 for layer_j in [10, 20, 30, 40]:
     key_i = "model.layers.0.input_layernorm.weight"  # <-- 비교하는 레이어를 0번째로 고정함.
     key_j = f"model.layers.{layer_j}.input_layernorm.weight"
@@ -59,7 +59,7 @@ for layer_j in [10, 20, 30, 40]:
 
 즉, 0번 레이어의 `input_layernorm`은 학습 내내 입력단의 스케일/분산/토큰 빈도 편향 같은 저수준 통계를 강하게 흡수하는 경향이 있고, 
 반대로 10/20/30/40 같은 중후반 레이어에서는 이미 여러 레이어를 거치며 정규화된 hidden state의 더 안정적인 분포를 상대합니다.
-결과적으로 0번 레이어의 `input_layernorm` weight는 다른 레이어들과 역할이 달라질 수 있고, 그 차이가 0번 레이어 vs 나머지 레이어 비교에서 cosine 유사도 하락으로 나타날 수 있습니다.`
+결과적으로 0번 레이어의 `input_layernorm` weight는 다른 레이어들과 역할이 달라질 수 있고, 그 차이가 0번 레이어 vs 나머지 레이어 비교에서 cosine 유사도 하락으로 나타날 수 있습니다.
 
 이러한 현상은 원본 레포에서 보고하지 않았던 전혀 다른 모델인 Qwen3-4B에서도 관찰할 수 있습니다.
 0번 레이어와 15, 20번째 레이어는 0.8 정도의 cosine 유사도를 갖지만 10번 레이어와 15, 20번째 레이어는 0.97 수준의 매우 높은 cosine 유사도를 갖습니다.
